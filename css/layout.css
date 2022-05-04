@@ -241,6 +241,8 @@ header > nav > ul > li:hover a::after{
   font-size:86px;
   text-align:center;
 }
+
+
 .l_manu02 li{
   position:absolute;
   left:300px;

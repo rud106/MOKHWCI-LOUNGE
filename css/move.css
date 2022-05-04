@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.intro > .i_img01{
+  position:absolute;
+  left:-30%;
+  opacity:0;
+  transition:1.3s;
+  transform:scale(0.5);
+}
+.s_img{
+  transform: scale(1) !important;;
+  left:10% !important;
+  opacity:1 !important;
+}
+.t_intro01{
+  transform:translateX(30%);
+  opacity:0;
+  transition:1.3s;
+}
+.intro_txt{
+  transform:translateX(0%);
+  opacity:1 !important;
+}
+.t_intro02{
+  transform:translate(30%,300px) scale(0.1);
+  opacity:0;
+  transition:1.3s;
+}
+.intro_txt02{
+  transform:translate(0%,0px) scale(1);
+  opacity:1;
+}
+
+.l_img{
+  transform:scale(0.1) !important;
+  transition:1.3s;
+  transform:translateX(-500px);
+}
+.lmanu_img{
+  transform:scale(1);
+}
